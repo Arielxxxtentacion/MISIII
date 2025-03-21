@@ -1,0 +1,23 @@
+class program { 
+
+  	void turnrignt() {
+  	turnleft();
+    turnleft();
+    turnleft();
+  }//void
+  
+  program() {
+  iterate(4) {
+	putbeeper();
+    move();
+    putbeeper();
+    move();
+    putbeeper();
+    move();
+     turnrignt();
+    
+    }//iteraten 
+      
+        turnoff();
+    }//program
+}//class
